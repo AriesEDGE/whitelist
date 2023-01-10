@@ -19,8 +19,8 @@ down(){
 echo "Hello World"
 sleep 1
 
-update()
-down()
+update
+down
 
 cd /usr/whitelist
 
