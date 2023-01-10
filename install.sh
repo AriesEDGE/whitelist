@@ -30,7 +30,7 @@ read port
 echo "请输入web认证端口"
 read web_port
 
-echo "请输入认证路径(直接输入英文即可)"
+echo "请输入认证路径(例如/aries)"
 read path
 
 echo "请输入认证用户名"
