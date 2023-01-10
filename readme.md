@@ -96,8 +96,8 @@ Aries会补充快捷命令，支持快捷命令修改端口，账号密码等.
 
 ## 参考项目
 
-[UFWFORNODE]:<https://github.com/AriesEDGE/ufwfornode>
-[IPTABLES]:(https://linux.die.net/man/8/iptables) 
+UFWFORNODE: https://github.com/AriesEDGE/ufwfornode
+IPTABLES: https://linux.die.net/man/8/iptables
 
 ## 开发&感谢
 
@@ -109,15 +109,15 @@ Telegram
 
 黑弩 
 
-[@heinu1]:(https://t.me/heinu1)
+@heinu1 t.me/heinu1
 
 Aries 
 
-[@aries_init]:(https://t.me/aries_init)
+@aries_init t.me/aries_init
 
-UniOreoX 
+UniOreoX
 
-[@UniOreoX]:(https://t.me/unioreox)
+@UniOreoX t.me/unioreox
 
 
 
