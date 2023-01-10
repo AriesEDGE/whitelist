@@ -54,6 +54,6 @@ nohup python3 -u web.py > iplog.out 2>&1 &
 clear 
 
 echo "认证信息:\n"
-echo "`curl ifconfig.me/ip`:${web_port}"
+echo "`curl ifconfig.me/ip`:${web_port}/${path}"
 echo "用户名:${username}"
 echo "密码:${password}"
