@@ -53,7 +53,7 @@ echo "配置环境完成,挂起后台执行"
 nohup python3 -u web.py > iplog.out 2>&1 &
 clear 
 
-echo "认证信息:\n"
+echo "认证信息:"
 echo "`curl -s ifconfig.me/ip`:${web_port}${path}"
 echo "用户名:${username}"
 echo "密码:${password}"
