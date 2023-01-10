@@ -34,10 +34,10 @@ echo "请输入认证路径(例如/aries)"
 read path
 
 echo "请输入认证用户名"
-read "username"
+read username
 
 echo "请输入认证密码"
-read "password"
+read password
 
 echo "获取信息完成,已经写入脚本"
 
@@ -54,6 +54,6 @@ nohup python3 -u web.py > iplog.out 2>&1 &
 clear 
 
 echo "认证信息:\n"
-echo "`curl ifconfig.me/ip`:${web_port}${path}"
+echo "`curl -s ifconfig.me/ip`:${web_port}${path}"
 echo "用户名:${username}"
 echo "密码:${password}"
